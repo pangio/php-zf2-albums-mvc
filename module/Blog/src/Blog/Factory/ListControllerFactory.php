@@ -15,7 +15,6 @@ class ListControllerFactory implements FactoryInterface, DispatchableInterface
 
     public function dispatch(Request $request, Response $response = null)
     {
-        // ... do something, and preferably return a Response ...
         return response;
     }
 

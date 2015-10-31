@@ -6,9 +6,6 @@ return array(
             'Blog\Service\PostServiceInterface' => 'Blog\Service\PostService'
         )
     ),
-// Zend\Stdlib\DispatchableInterface
-//
-//
     'view_manager' => array(
         'template_path_stack' => array(
             __DIR__ . '/../view',
