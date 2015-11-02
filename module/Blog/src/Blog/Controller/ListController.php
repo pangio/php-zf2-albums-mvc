@@ -20,8 +20,6 @@ class ListController extends AbstractActionController
 
     public function indexAction()
     {
-		// return array('foo' => 'bar');
-
         return new ViewModel(array(
             'posts' => $this->postService->findAllPosts()
         ));

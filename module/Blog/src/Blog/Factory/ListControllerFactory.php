@@ -6,18 +6,11 @@ use Blog\Controller\ListController;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 
-use Zend\Stdlib\DispatchableInterface;
 use Zend\Stdlib\RequestInterface as Request;
 use Zend\Stdlib\ResponseInterface as Response;
 
-class ListControllerFactory implements FactoryInterface, DispatchableInterface
+class ListControllerFactory implements FactoryInterface
 {
-
-    public function dispatch(Request $request, Response $response = null)
-    {
-        return response;
-    }
-
     /**
     * Create service
     *

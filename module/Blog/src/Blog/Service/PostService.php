@@ -1,6 +1,8 @@
- <?php
+<?php
 // Filename: /module/Blog/src/Blog/Service/PostService.php namespace Blog\Service;
 namespace Blog\Service;
+
+use Blog\Mapper\PostMapperInterface;
 
 class PostService implements PostServiceInterface
 {
